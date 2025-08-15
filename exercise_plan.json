@@ -1,0 +1,982 @@
+[
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute treadmill walk + resistance band pull-aparts for shoulder health",
+            "tuesday": "Chair Pilates focusing on controlled movements and breath",
+            "wednesday": "Lower body: 3 sets of 12 bodyweight lunges (using a wall for support), 3 sets of 15 heel raises",
+            "thursday": "35-minute session on an elliptical machine",
+            "friday": "Core and stability: 3 sets of 30-second planks (on knees if needed), bird-dog pose (3 sets of 10 per side)",
+            "saturday": "Light recreational activity (e.g., frisbee, bowling) for 45-60 minutes",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "Metabolic Conditioning (MetCon): A circuit of rowing, wall balls, and burpees for time",
+            "tuesday": "Strength Training (Arms): Barbell curls (4x10), skull crushers (4x10), hammer curls and tricep pushdowns (3x12)",
+            "wednesday": "Cardio: 45-minute running with hill repeats",
+            "thursday": "Strength Training (Posterior Chain): Good mornings (4x12), glute-ham raises (3x12), pull-throughs (3x15)",
+            "friday": "Yoga or mobility flow session to improve range of motion",
+            "saturday": "Strongman-style workout: Farmer's walks, sled drags",
+            "sunday": "Rest day, light activity like walking is optional"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute brisk walk + resistance band exercises (upper body)",
+            "tuesday": "Chair yoga with a focus on stretching and breathing",
+            "wednesday": "Lower body strength: 3 sets of 12 supported squats and calf raises",
+            "thursday": "30-minute swimming or water aerobics",
+            "friday": "Balance training: heel-to-toe walking and single-leg stands with support",
+            "saturday": "Leisurely 45-minute outdoor walk in a park",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "High-Intensity Interval Training (HIIT): 20 minutes of burpees and jumping jacks",
+            "tuesday": "Strength Training (Upper Body): Bench press (3x10), pull-ups (3 sets to failure)",
+            "wednesday": "Cardio: 45-minute run",
+            "thursday": "Strength Training (Lower Body): Barbell squats (4x8), weighted lunges (3x10 per leg)",
+            "friday": "Active Recovery & Core: 30-minute light cycling and a 10-minute plank circuit",
+            "saturday": "Full Body Workout: Kettlebell circuit including swings, goblet squats, and presses",
+            "sunday": "Rest day, foam rolling"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute stationary cycling at a moderate pace",
+            "tuesday": "Gentle Pilates focusing on core stability",
+            "wednesday": "Lower body strength: 3 sets using a light leg press machine",
+            "thursday": "35-minute walk on a treadmill with a slight incline",
+            "friday": "Seated core exercises: torso twists and knee lifts",
+            "saturday": "Light gardening or yard work for one hour",
+            "sunday": "Rest day with guided meditation"
+        },
+        "non_diabetic_plan": {
+            "monday": "Circuit Training: 3 rounds of push-ups, squats, rows, and planks",
+            "tuesday": "Strength Training (Push Day): Overhead press (3x10), incline dumbbell press (3x12), tricep dips (3x15)",
+            "wednesday": "Cardio: 30-minute session on the rowing machine (2000 meters)",
+            "thursday": "Strength Training (Pull Day): Deadlifts (4x6), bent-over rows (3x10), bicep curls (3x12)",
+            "friday": "Flexibility and Mobility: 45-minute vinyasa yoga class",
+            "saturday": "Outdoor Activity: Long hike or mountain biking",
+            "sunday": "Complete rest day"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "30-minute walk with light hand weights (1-2 lbs)",
+            "tuesday": "Tai Chi session for balance and relaxation",
+            "wednesday": "Bodyweight lower body: 3 sets of 12 wall sits and side leg raises",
+            "thursday": "30-minute session on an elliptical trainer",
+            "friday": "Balance and coordination: Tandem (heel-to-toe) walking and grapevine steps",
+            "saturday": "Low-impact dance class or group walk",
+            "sunday": "Rest day with focus on hydration"
+        },
+        "non_diabetic_plan": {
+            "monday": "Plyometrics: Box jumps (3x12), squat jumps (3x15), broad jumps (3x10)",
+            "tuesday": "Strength Training (Upper Body): Weighted pull-ups (3x8), dumbbell bench press (4x10), face pulls (3x15)",
+            "wednesday": "Cardio: 45-minute session on the stair-climber",
+            "thursday": "Strength Training (Lower Body): Leg press (4x12), Romanian deadlifts (3x10), weighted calf raises (4x15)",
+            "friday": "Core & Cardio: 15 minutes of jump rope followed by a core circuit (crunches, Russian twists, flutter kicks)",
+            "saturday": "Full Body Strength: A complex of deadlift, row, clean, front squat, and press (5 reps each, 5 rounds)",
+            "sunday": "Rest day, light walk encouraged"
+        }
+    },
+    {
+        "diabetic_plan": {
+            "monday": "35-minute brisk walk outdoors",
+            "tuesday": "Seated stretching session: focusing on hamstrings and shoulders with a strap",
+            "wednesday": "Functional strength: 3 sets of 12 sit-to-stands from a chair, 3 sets of 10 step-ups on a low step",
+            "thursday": "30-minute water walking in a pool",
+            "friday": "Balance practice: Standing with feet together, progressing to closing eyes briefly with support nearby",
+            "saturday": "Leisurely 1-hour bike ride on flat terrain",
+            "sunday": "Rest day with gentle stretching"
+        },
+        "non_diabetic_plan": {
+            "monday": "HIIT Circuit: 1 minute each of mountain climbers, high knees, kettlebell swings, and push-ups (4 rounds)",
+            "tuesday": "Strength Training (Chest & Back): Push-ups (4 sets to failure), T-bar rows (4x10), cable crossovers (3x12)",
+            "wednesday": "Endurance Cardio: 60-minute session on a stationary bike",
+            "thursday": "Strength Training (Legs & Shoulders): Front squats (3x10), Arnold presses (3x12), lateral raises (3x15)",
+            "friday": "Active Recovery: 30-minute light jog followed by extensive foam rolling",
+            "saturday": "CrossFit-style WOD: e.g., 'Cindy' (20 mins of 5 pull-ups, 10 push-ups, 15 squats)",
+            "sunday": "Complete rest day"
+        }
+    }
+]
